@@ -1,0 +1,14 @@
+# @arslan-jh/dsh-deepseek-usage — bundle patch layer.
+# Installed from `github:Arslan-jh/dsh-deepseek-usage`; the
+# launcher appends this package to dsh.profile.bundles automatically (it
+# declares dsh.bundle), so this insert becomes an active profile layer on
+# the next boot.
+
+# Host half registers GET /api/ds-usage (balance + today's consumption) and
+# POST /api/ds-usage-config (optional manual calibration / platform token).
+# The package also declares a dsh.client web bundle that renders the readout
+# under the conversation stats line and a settings row under Settings →
+# General.
+- insert:
+    - id: ds-usage
+      name: '@arslan-jh/dsh-deepseek-usage'
