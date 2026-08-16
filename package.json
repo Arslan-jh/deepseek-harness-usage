@@ -1,5 +1,5 @@
 {
-  "name": "@arslan-jh/dsh-deepseek-usage",
+  "name": "@arslan-jh/deepseek-harness-usage",
   "version": "1.0.1",
   "private": true,
   "description": "DeepSeek Harness web plugin showing account balance and an evidence-bounded estimate of today's CNY consumption",
@@ -47,11 +47,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arslan-jh/dsh-deepseek-usage.git"
+    "url": "git+https://github.com/Arslan-jh/deepseek-harness-usage.git"
   },
-  "homepage": "https://github.com/Arslan-jh/dsh-deepseek-usage#readme",
+  "homepage": "https://github.com/Arslan-jh/deepseek-harness-usage#readme",
   "bugs": {
-    "url": "https://github.com/Arslan-jh/dsh-deepseek-usage/issues"
+    "url": "https://github.com/Arslan-jh/deepseek-harness-usage/issues"
   },
   "engines": {
     "node": ">=22"

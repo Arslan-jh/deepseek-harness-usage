@@ -124,9 +124,9 @@ test("package, bundle patch, and browser module use one public identity", () => 
   const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
   const patch = readFileSync(new URL("../cordis.patch.yml", import.meta.url), "utf8");
   const client = readFileSync(new URL("../lib/client.js", import.meta.url), "utf8");
-  assert.equal(packageJson.name, "@arslan-jh/dsh-deepseek-usage");
-  assert.match(patch, /name: '@arslan-jh\/dsh-deepseek-usage'/);
-  assert.match(client, /id: "@arslan-jh\/dsh-deepseek-usage"/);
+  assert.equal(packageJson.name, "@arslan-jh/deepseek-harness-usage");
+  assert.match(patch, /name: '@arslan-jh\/deepseek-harness-usage'/);
+  assert.match(client, /id: "@arslan-jh\/deepseek-harness-usage"/);
 });
 
 test("new-day replay adds only today's log cost to the current balance", async (t) => {
