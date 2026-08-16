@@ -1,5 +1,5 @@
-# @arslan-jh/dsh-deepseek-usage — bundle patch layer.
-# Installed from `github:Arslan-jh/dsh-deepseek-usage`; the
+# @arslan-jh/deepseek-harness-usage — bundle patch layer.
+# Installed from `github:Arslan-jh/deepseek-harness-usage`; the
 # launcher appends this package to dsh.profile.bundles automatically (it
 # declares dsh.bundle), so this insert becomes an active profile layer on
 # the next boot.
@@ -11,4 +11,4 @@
 # General.
 - insert:
     - id: ds-usage
-      name: '@arslan-jh/dsh-deepseek-usage'
+      name: '@arslan-jh/deepseek-harness-usage'

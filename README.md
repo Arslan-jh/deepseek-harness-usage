@@ -1,6 +1,6 @@
-# DeepSeek Usage for DSH
+# DeepSeek Harness Usage
 
-[![CI](https://github.com/Arslan-jh/dsh-deepseek-usage/actions/workflows/ci.yml/badge.svg)](https://github.com/Arslan-jh/dsh-deepseek-usage/actions/workflows/ci.yml)
+[![CI](https://github.com/Arslan-jh/deepseek-harness-usage/actions/workflows/ci.yml/badge.svg)](https://github.com/Arslan-jh/deepseek-harness-usage/actions/workflows/ci.yml)
 [![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4f46e5)](https://github.com/topics/dsh-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -28,14 +28,14 @@
 ## 安装
 
 ```sh
-dsh plugin --profile web add github:Arslan-jh/dsh-deepseek-usage
+dsh plugin --profile web add github:Arslan-jh/deepseek-harness-usage
 dsh --profile web
 ```
 
 如果你的电脑只通过 `npx` 使用 DSH：
 
 ```sh
-npx @deepseek-ai/dsh plugin --profile web add github:Arslan-jh/dsh-deepseek-usage
+npx @deepseek-ai/dsh plugin --profile web add github:Arslan-jh/deepseek-harness-usage
 npx @deepseek-ai/dsh --profile web
 ```
 
@@ -108,12 +108,12 @@ npx @deepseek-ai/dsh --profile web
 
 ### 可以使用无 scope 的 npm 包名安装吗？
 
-不可以。npm 上的 `dsh-deepseek-usage` 是另一个无关项目。请使用 README 中的 GitHub 安装命令。
+不可以。本项目的包标识是 `@arslan-jh/deepseek-harness-usage`，目前请使用 README 中的 GitHub 安装命令。
 
 ## 卸载
 
 ```sh
-dsh plugin --profile web remove @arslan-jh/dsh-deepseek-usage
+dsh plugin --profile web remove @arslan-jh/deepseek-harness-usage
 ```
 
 ## 开发
