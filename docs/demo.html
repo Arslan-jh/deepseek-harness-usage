@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DeepSeek Usage for DSH — Screenshot Demo</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #101114;
+        color: #ececef;
+        font-family: Inter, "Segoe UI", "Microsoft YaHei", sans-serif;
+      }
+      .stage {
+        width: min(1040px, calc(100vw - 80px));
+        padding: 64px 72px 54px;
+        border: 1px solid #2d2e34;
+        border-radius: 28px;
+        background: linear-gradient(145deg, #18191d, #101114);
+        box-shadow: 0 30px 80px rgba(0, 0, 0, .42);
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 28px;
+        color: #8f919a;
+        font-size: 14px;
+      }
+      .brand-mark {
+        width: 24px;
+        height: 24px;
+        border-radius: 9px;
+        background: #5b5ce2;
+      }
+      .composer {
+        padding: 24px 28px 18px;
+        border: 1px solid #35363d;
+        border-radius: 22px;
+        background: #202126;
+        box-shadow: 0 12px 34px rgba(0, 0, 0, .25);
+      }
+      .placeholder {
+        margin-bottom: 34px;
+        color: #777982;
+        font-size: 17px;
+      }
+      .controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #a3a5ad;
+        font-size: 13px;
+      }
+      .pills { display: flex; gap: 8px; }
+      .pill {
+        padding: 7px 11px;
+        border: 1px solid #383941;
+        border-radius: 9px;
+        background: #2a2b31;
+      }
+      .usage {
+        margin-top: 18px;
+        color: #8e9098;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: center;
+      }
+      .usage b {
+        color: #cfd0d6;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+      }
+      .separator { margin: 0 16px; color: #4d4f57; }
+      .caption {
+        margin-top: 26px;
+        color: #666873;
+        font-size: 13px;
+        letter-spacing: .03em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="stage">
+      <div class="brand"><span class="brand-mark"></span><span>DeepSeek Harness · Web</span></div>
+      <section class="composer">
+        <div class="placeholder">给智能体发消息</div>
+        <div class="controls">
+          <div class="pills"><span class="pill">Full access</span><span class="pill">DeepSeek-V4-Pro</span></div>
+          <span>发送</span>
+        </div>
+      </section>
+      <div class="usage">今日消费 <b>≈¥12.34</b><span class="separator">|</span>总余额 <b>¥88.88</b></div>
+      <div class="caption">示例数据 · 插件显示在对话输入区下方</div>
+    </main>
+  </body>
+</html>
